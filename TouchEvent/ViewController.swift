@@ -80,6 +80,7 @@ class ViewController: UIViewController, PHPickerViewControllerDelegate {
         
         imageViewArray.removeLast()
         
+        
     }
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         let itemProvider = results.first?.itemProvider
